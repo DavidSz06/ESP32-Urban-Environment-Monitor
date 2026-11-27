@@ -1,0 +1,1 @@
+# CI: build firmware with PlatformIO (pio run) and run native unit tests

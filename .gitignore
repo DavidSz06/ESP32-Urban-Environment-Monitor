@@ -1,0 +1,16 @@
+# Firmware
+firmware/.pio/
+firmware/include/secrets.h
+
+# Dashboard
+dashboard/node_modules/
+dashboard/.next/
+dashboard/.env*.local
+dashboard/.env
+dashboard/*.db
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
