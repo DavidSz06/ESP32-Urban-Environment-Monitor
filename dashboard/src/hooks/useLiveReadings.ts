@@ -1,0 +1,1 @@
+// Poll /api/readings/latest

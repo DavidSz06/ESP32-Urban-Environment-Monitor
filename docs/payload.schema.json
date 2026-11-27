@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reading payload sent by an ESP32 node",
+  "type": "object",
+  "required": ["deviceId", "timestamp"],
+  "properties": {
+    "deviceId": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "temperature": { "type": "number", "description": "°C" },
+    "humidity": { "type": "number", "description": "%RH" },
+    "pressure": { "type": "number", "description": "hPa" },
+    "pm1_0": { "type": "number", "description": "µg/m³" },
+    "pm2_5": { "type": "number", "description": "µg/m³" },
+    "pm10": { "type": "number", "description": "µg/m³" },
+    "co2": { "type": "number", "description": "ppm" },
+    "noise": { "type": "number", "description": "dB(A)" },
+    "light": { "type": "number", "description": "lux" }
+  }
+}
